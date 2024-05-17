@@ -189,9 +189,9 @@ Classes for fonts Lato and Oswald
     #menu > li {
         padding-left: 1rem;
     }
-    /* Stops underline in laptops and higher */
+    /* Brings back underline in laptops and higher */
     #menu a:hover {
-        border-bottom: #3a3a3a;
+        border-bottom: 1px solid #3a3a3a;
     }
     .nav-toggle-label {
         display: none;
