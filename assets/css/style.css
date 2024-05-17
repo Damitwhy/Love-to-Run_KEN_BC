@@ -69,6 +69,7 @@ h1 {
 
 /* Main Content */
 main {
+    margin-top: 47px;
     background-color: lightblue;
     /* lets make our main element takeup remaining space to push our footer down */
     flex: 1 0 auto;
