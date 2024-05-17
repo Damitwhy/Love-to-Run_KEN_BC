@@ -51,10 +51,12 @@ nav {
     top: 100%;
 
 }
+
 /* nav to toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
+
 #nav-toggle {
     display: none;
 }
@@ -79,8 +81,8 @@ main {
 footer {
     background-color: orange;
     /* font-family: "Lato", sans-serif; */
-    
-    
+
+
 }
 
 /* 
@@ -102,13 +104,14 @@ Classes for fonts Lato and Oswald
     font-weight: 300;
     font-style: italic;
 }
+
 .lato-regular {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-  
+
 /* <uniquifier>: Use a unique and descriptive class name
 <weight>: Use a value from 200 to 700 */
 
@@ -137,12 +140,13 @@ Classes for fonts Lato and Oswald
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
 /* Media Query: Tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
+
     /* header */
     nav {
         display: block;
@@ -152,28 +156,35 @@ Classes for fonts Lato and Oswald
         padding-right: 1rem;
 
     }
+
     #menu {
         display: flex;
     }
-    #menu > li {
+
+    #menu>li {
         padding-left: 1rem;
     }
+
     .nav-toggle-label {
         display: none;
     }
+
     #logo {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
+
     /* Main content */
     main {
         /* push content down to accommodate Bigger header  */
         margin-top: 79px;
     }
 }
+
 /*  LAptops and higher Media query */
 @media screen and (min-width:992px) {
+
     /* header */
     nav {
         display: block;
@@ -183,24 +194,30 @@ Classes for fonts Lato and Oswald
         padding-right: 1rem;
 
     }
+
     #menu {
         display: flex;
     }
-    #menu > li {
+
+    #menu>li {
         padding-left: 1rem;
     }
+
     /* Brings back underline in laptops and higher */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+
     .nav-toggle-label {
         display: none;
     }
+
     #logo {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
+
     /* Main content */
     main {
         /* push content down to accommodate Bigger header  */
