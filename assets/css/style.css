@@ -190,8 +190,8 @@ Classes for fonts Lato and Oswald
         padding-left: 1rem;
     }
     /* Stops underline in laptops and higher */
-    #menu > a:hover {
-        text-decoration: none;
+    #menu a:hover {
+        border-bottom: #3a3a3a;
     }
     .nav-toggle-label {
         display: none;
