@@ -27,6 +27,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -44,6 +47,15 @@ nav {
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     left: 0;
+    display: none;
+    top: 100%;
+
+}
+/* nav to toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+#nav-toggle {
     display: none;
 }
 
@@ -110,6 +122,10 @@ Classes for fonts Lato and Oswald
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* IDs all */
