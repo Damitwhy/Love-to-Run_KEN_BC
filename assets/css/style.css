@@ -140,3 +140,25 @@ Classes for fonts Lato and Oswald
 #menu > li {
     margin-bottom: 1em;
 }
+
+/* Media Query: Tablets and larger (768px and up) */
+@media screen and (min-width:768px) {
+    /* header */
+    nav {
+        display: block;
+        box-shadow: none;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+
+    }
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
+}
