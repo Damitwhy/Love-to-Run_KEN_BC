@@ -172,3 +172,38 @@ Classes for fonts Lato and Oswald
         margin-top: 79px;
     }
 }
+/*  LAptops and higher Media query */
+@media screen and (min-width:992px) {
+    /* header */
+    nav {
+        display: block;
+        box-shadow: none;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+
+    }
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }
+    /* Stops underline in laptops and higher */
+    #menu > a:hover {
+        text-decoration: none;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    /* Main content */
+    main {
+        /* push content down to accommodate Bigger header  */
+        margin-top: 79px;
+    }
+}
