@@ -3,7 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
+}
+
+/* General Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project style */
+    color: #3a3a3a;
 }
 
 /* Header */
@@ -14,6 +23,8 @@ header {
 /* Main Content */
 main {
     background-color: lightblue;
+    /* lets make our main element takeup remaining space to push our footer down */
+    flex: 1 0 auto;
 }
 
 /* Footer */
