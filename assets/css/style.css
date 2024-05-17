@@ -161,4 +161,14 @@ Classes for fonts Lato and Oswald
     .nav-toggle-label {
         display: none;
     }
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    /* Main content */
+    main {
+        /* push content down to accommodate Bigger header  */
+        margin-top: 79px;
+    }
 }
