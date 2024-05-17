@@ -92,3 +92,20 @@ Classes for fonts Lato and Oswald
     font-style: normal;
 }
 
+/* Classes all */
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* IDs all */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
