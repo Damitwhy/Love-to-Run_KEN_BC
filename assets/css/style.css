@@ -22,8 +22,8 @@ body {
 /* Header */
 header {
     background-color: #ffffff;
-    padding: 0 1rem;
     position: fixed;
+    padding: 0 1rem;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -33,6 +33,20 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+
+/* Nav Bar styles with drop down toggle */
+
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    /* z-index: 99; */
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    left: 0;
+    display: none;
+}
+
 /* h1 styled */
 h1 {
     font-family: 'Oswald', sans-serif;
