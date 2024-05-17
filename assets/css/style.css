@@ -1,3 +1,11 @@
+/* Asterisk wild card selector to override default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
 /* Header */
 header {
     background-color: lightcoral;
