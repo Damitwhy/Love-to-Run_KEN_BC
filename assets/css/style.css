@@ -286,3 +286,15 @@ main {
         margin-top: 79px;
     }
 }
+/* for screens with resolution greater than 1200px and wider */
+@media screen and (min-width:1200px) {
+    /* Reasons section */
+    
+    #benefits-physical, 
+    #benefits-mental {
+        flex-direction: column;
+        width: 33vw;
+    }
+    
+  
+}
