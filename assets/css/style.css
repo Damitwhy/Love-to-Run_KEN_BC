@@ -218,6 +218,14 @@ main {
     margin-bottom: 1em;
 }
 
+/* media query large or landscape phones( 6width 576px or higher */
+@media screen and (min-width: 576px){
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media Query: Tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
 
@@ -276,6 +284,11 @@ main {
         text-align: end;
         align-self: flex-end;
     }
+
+    /* photo gallery  */
+    #photos {
+        column-count: 3;
+    }
 }
 
 /*  LAptops and higher Media query */
@@ -319,6 +332,10 @@ main {
         /* push content down to accommodate Bigger header  */
         margin-top: 79px;
     }
+        /* photo gallery  */
+        #photos {
+            column-count: 4;
+        }
 }
 /* for screens with resolution greater than 1200px and wider */
 @media screen and (min-width:1200px) {
