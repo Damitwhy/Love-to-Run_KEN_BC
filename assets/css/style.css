@@ -125,23 +125,34 @@ main {
     margin: 20px auto;
     width: 90%;
 }
-#benefits {
-    width: 100%;
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size 280%;
 }
+/* #benefits {
+    width: 100%;
+} */
 #benefits p {
-    /* place holder */
+    padding: 0 20px;
+}
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 #benefits-physical>div,
 #benefits-mental>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
+/* Shame this could of done the same thing as 'benefits p' and benefits hr
+    now i have to go back to html and set hr tags
 #benefits-physical p,
 #benefits-mental p {
     padding: 0 20px;
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
-}
+} */
 /* #benefits-physical>hr,
 #benefits-mental>hr {
     border-top: 1px solid #3a3a3a;
