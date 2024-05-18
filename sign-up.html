@@ -37,7 +37,26 @@
     </header>
     <!-- Main page area, Most of our information will appear here -->
     <main>
-        Sign Up
+        <section id="signup">
+            <h2><i class="fa-solid fa-heart-pulse"></i> Let's get you signed up</h2>
+            <form action="post" url="https://formdump.codeinstitute.net" id="signup-form">
+                <label for="fname">First Name</label>
+                <input type="text" class="text-input" id="first-name" name="fname" required>
+                <label for="fname">Last Name</label>
+                <input type="text" class="text-input" id="last-name" name="lname" required>
+                <label for="email">Email</label>
+                <input type="email" class="text-input" id="email" name="email" required>
+                <div class="radio-buttons">
+                    <label for="road">Road</label>
+                    <input type="radio" id="road" name="running_preference" required>
+                    <label for="trail">Trail</label>
+                    <input type="radio" id="trail" name="running_preference">
+                    <label for="both">Both</label>
+                    <input type="radio" id="both" name="running_preference">
+                </div>
+                <input type="submit" name="join-button" class="join-button" value="Let's Run">
+            </form>
+        </section>
     </main>
     <!-- footer of pages, always appears at the bottom of our pages-->
     <footer>
