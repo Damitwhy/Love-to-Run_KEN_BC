@@ -120,6 +120,21 @@ main {
     color: #3a3a3a;
 }
 
+/* reasons to love section ids */
+#reasons {
+    margin: 20px auto;
+    width: 90%;
+}
+#benefits {
+    margin-top: 20px;
+    width: 100%;
+}
+#benefits-physical {
+    /* place holder */
+}
+#benefits-mental {
+
+}
 /* Classes all */
 
 .active {
