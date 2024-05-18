@@ -129,6 +129,15 @@ main {
     color: #fafafa;
 }
 
+/* gallery page */
+#photos img{
+    width: 100%;
+    line-height: 1;
+}
+#photos {
+    line-height: 0;
+}
+
 /* Footer new id class
  */
 #social-networks {
