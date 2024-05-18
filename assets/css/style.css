@@ -305,7 +305,7 @@ main {
     #benefits-mental {
         order: 1;
     }
-    ##benefits-physical>div {
+    #benefits-physical>div {
         align-self: flex-end;
     }
     #benefits-mental>div {
