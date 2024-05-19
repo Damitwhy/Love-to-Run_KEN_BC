@@ -80,6 +80,9 @@ main {
 
     /* lets make our main element takeup remaining space to push our footer down */
     flex: 1 0 auto;
+    /* Added flex direction for signup page let see hwo this affects every thing else */
+    display: flex;
+    flex-direction: column;
 }
 
 /* hero section styles */
@@ -222,20 +225,47 @@ main {
     background-size: cover;
     background-position: 75%;
     flex-grow: 1;
-    padding: 20px 10%;
+    padding: 20px 10% 0 10%;
     background: url(../images/signup-image.webp) no-repeat center center/cover;
 }
-#signup h2 {
-    color: #fafafa;
-    padding-bottom: 20px;
-}
+
 #signup-form {
     color: #ffffff;
     background-color: rgba(60,60,60,0.6);
-    padding: 30px 30px;
-    max-width: 400px;
+    padding: 30px;
+    /* max-width: 400px; */
 }
 
+#signup-form>h2 {
+    color: #fafafa;
+    padding-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
+}
 
 /* media query large or landscape phones( 6width 576px or higher */
 @media screen and (min-width: 576px){
@@ -307,6 +337,26 @@ main {
     /* photo gallery  */
     #photos {
         column-count: 3;
+    }
+
+    /* Sign up form  */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 10px;
+    }
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
     }
 }
 
