@@ -10,7 +10,7 @@ Love Running is a site set up to welcome people to the running community, keep f
 
 Opening page Hero image with text welcoming you to the page. 
 
-Site includes footer links to Social media site and header drop down navbar on every page and on scaling up nav bar is revealed for larger screen sizes.
+Site includes footer links to Social media site and header drop down navbar on every page, on scaling up nav bar is revealed for larger screen sizes.
 
 Gallery page to shows off service users and the social aspect of running within a club.
 
