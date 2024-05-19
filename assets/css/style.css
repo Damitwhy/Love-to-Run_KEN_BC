@@ -32,6 +32,7 @@ h3 {
 .hidden-heading {
     display: none;
 }
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -116,27 +117,30 @@ main {
     flex-wrap: wrap;
 
 }
+
 #times div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     padding: 15px;
     text-align: center;
-     /* not wrap on screens les than 400px */
+    /* not wrap on screens les than 400px */
     flex-basis: 200px;
     flex-grow: 1;
     /* create a grid over bg image with div border */
     border: 2px solid #ffffff;
 }
+
 #times h3 {
     /* over ride general styles */
     color: #fafafa;
 }
 
 /* gallery page */
-#photos img{
+#photos img {
     width: 100%;
     line-height: 1;
 }
+
 #photos {
     line-height: 0;
 }
@@ -162,26 +166,31 @@ main {
     margin: 20px auto;
     width: 90%;
 }
+
 #reasons h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
 }
+
 /* #benefits {
     width: 100%;
 } */
 #benefits p {
     padding: 0 20px;
 }
+
 #benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
+
 #benefits-physical>div,
 #benefits-mental>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
+
 /* Benefits circle img */
 #circle-cover-bg {
     background: url(../images/reasons-image.webp) no-repeat top center/cover;
@@ -193,8 +202,9 @@ main {
     max-width: 300px;
     max-height: 300px;
 }
+
 #benefits-image {
-    display : flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -220,6 +230,7 @@ main {
 #menu>li {
     margin-bottom: 1em;
 }
+
 /* Signup Form styles */
 #signup {
     background-size: cover;
@@ -231,7 +242,7 @@ main {
 
 #signup-form {
     color: #ffffff;
-    background-color: rgba(60,60,60,0.6);
+    background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
     /* max-width: 400px; */
 }
@@ -268,7 +279,7 @@ main {
 }
 
 /* media query large or landscape phones( 6width 576px or higher */
-@media screen and (min-width: 576px){
+@media screen and (min-width: 576px) {
     #photos {
         column-count: 2;
         column-gap: 0;
@@ -317,18 +328,21 @@ main {
         width: 300px;
         right: 50px;
     }
+
     /* Reasons section */
-    #benefits-physical, 
+    #benefits-physical,
     #benefits-mental {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
-    #benefits-physical>div, 
+
+    #benefits-physical>div,
     #benefits-mental>div {
         width: 75%;
 
     }
+
     #benefits-mental>div {
         text-align: end;
         align-self: flex-end;
@@ -344,12 +358,14 @@ main {
         background-position: center;
         position: relative;
     }
+
     #signup-form {
         max-width: 400px;
         position: absolute;
         left: 10%;
         top: 10px;
     }
+
     .text-input:hover {
         border-color: #f16c6b;
     }
@@ -401,36 +417,43 @@ main {
         /* push content down to accommodate Bigger header  */
         margin-top: 79px;
     }
-        /* photo gallery  */
-        #photos {
-            column-count: 4;
-        }
+
+    /* photo gallery  */
+    #photos {
+        column-count: 4;
+    }
 }
+
 /* for screens with resolution greater than 1200px and wider */
 @media screen and (min-width:1200px) {
     /* Reasons section */
-    
+
     #benefits {
         display: flex;
         flex-direction: row;
-        
+
     }
+
     #benefits>div {
         flex: 1;
         justify-content: space-around;
     }
+
     #benefits-image {
         order: 0;
     }
+
     #benefits-mental {
         order: 1;
     }
+
     #benefits-physical>div {
         align-self: flex-end;
     }
+
     #benefits-mental>div {
         align-self: flex-start;
     }
 
-    
+
 }
